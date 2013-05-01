@@ -12,7 +12,14 @@
  * 
  * * */
 
+var User = require('../lib/user.js').User;
+
 var opt = require('optimist')
 	.demand(['c', 's'])
 	.argv;
 
+var user = new User({
+	'auth' : 'retardis:Decry celibacy!'
+});
+
+user.request('http://irc.gradysghost.info');

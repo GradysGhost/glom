@@ -7,6 +7,7 @@ A Node.js HTTP server load tester that attempts to accurately simulate human int
 
 You'll need the following `npm` modules installed to run glom:
 
+ * `jsdom`
  * `optimist`
 
 ## Usage
