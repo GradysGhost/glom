@@ -1,0 +1,31 @@
+{
+	"name" : "glom",
+	"preferGlobal" : true,
+	"version" : "0.0.0",
+	"author" : "Ryan Jung <gradysghost@gmail.com>",
+	"description" : "A Node.js HTTP server load tester that attempts to accurately simulate human internet users",
+	"contributors" : [ {
+		"name" : "Ryan Jung",
+		"email" : "gradysghost@gmail.com"
+	} ],
+	"bin" : {
+		"glom" : "./bin/glom"
+	},
+	"main" : "./bin/glom",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/GradysGhost/glom.git"
+	},
+	"keywords" : [
+		"glom",
+		"load",
+		"load test",
+		"test",
+		"simulate"
+	],
+	"dependencies" : {
+		"optimist" : ">= 0.4.0",
+		"jsdom" : ">= 0.6.0"
+	},
+	"licence" : "Apache"
+}
