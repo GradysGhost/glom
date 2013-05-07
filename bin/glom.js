@@ -18,8 +18,6 @@ var opt = require('optimist')
 	.demand(['c', 's'])
 	.argv;
 
-var user = new User({
-	'auth' : 'retardis:Decry celibacy!'
-});
+var user = new User({});
 
-user.request('http://irc.gradysghost.info');
+user.request();
